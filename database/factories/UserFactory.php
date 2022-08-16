@@ -27,9 +27,6 @@ class UserFactory extends Factory
             'affiliation_id' => function () {
                 return Affiliation::factory()->create()->id;
             },
-            'affiliation_id' => function () {
-                return \App\Models\Affiliation::factory()->create()->id;
-            },
         ];
     }
 
